@@ -60,7 +60,7 @@ a:active {
   }
 
   .list-social-icons a:hover {
-      color: #2196f3;
+      color: #e74c3c;
   }
 
   .list-social-icons a .fa-lg {
@@ -169,7 +169,7 @@ a:active {
   .heading-border {
       width: 60px;
       height: 10px;
-      background-color: #2196f3;
+      background-color: #e74c3c;
       margin: 0 auto 20px auto;
   }
 
@@ -200,11 +200,11 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #2196f3 !important;
+      background-color: #e74c3c !important;
   }
 
   .text-primary {
-      color: #2196f3 !important;
+      color: #e74c3c !important;
   }
 
 /*==================================================
@@ -423,7 +423,7 @@ a:active {
 }
 
 .skill-item i {
-    color: #2196f3;
+    color: #e74c3c;
 }
 
 .skill-item h2 {
@@ -725,7 +725,12 @@ a:active {
   margin-right: 10px;
   border-radius: 50%;
 }  
-
+.text_white{
+  color: #fff !important;
+}
+.text_black{
+  color: black !important;
+}
 @media(max-width: 767px){
     #contact-p2 .con-form input{
         margin-bottom: 30px;
@@ -760,17 +765,3 @@ a:active {
     }    
 }
  
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
